@@ -1,0 +1,125 @@
+/* CSS for header */
+.header{
+    text-align: right;
+    padding: 100px;
+    margin: 0;
+    /* margin-right: 90px; */
+    border-right:150px ;
+    color: white;
+    font-size: larger;
+    padding-bottom: 190px;
+    padding-right: 140px;
+}
+
+.banner{
+    background-image: url('../media/images/banner/banner3.png');
+    background-size:cover;
+    background-repeat: no-repeat ;
+}
+button{
+    padding: 10px;
+    color: blue;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 255);
+    border-width: 0ch;
+    
+}
+/* CSS for body */
+.about-container {
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-around; */
+    padding: 40px 90px;
+    margin-left: 40px;
+}
+
+.about-container img{
+    height: 500px;
+}
+
+.about-container h3{
+    font-size: 30px;
+}
+
+.second-part{
+    padding-top: 140px;
+}
+
+.container{
+    display: flex;
+    /* gap: 24px; */
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 1px 100px;
+}
+.my-plan{
+    padding: 40px;
+}
+.my-plan h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    padding-bottom: 0%;
+}
+
+.container h4{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 0%;
+}
+/* CSS for Footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+footer button{
+    color: aliceblue;
+    background-color: rgb(11, 11, 206);
+}
+footer input{
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px 1px;
+    background-color: black;
+    color: white;
+}
+/* CSS for gradient */
+.gradient{
+    background-image: linear-gradient(to right, rgb(38, 38, 143) , rgb(30, 96, 228));
+    height: 150px;
+    width: 800px;
+    padding: 30px;
+    margin: 50px 200px;
+    color: aliceblue;
+    font-size: larger;
+}
+
+/* Extra-part CC */
+.extra-part input{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    margin-left: 500px;
+}
+
+.extra-part textarea{
+    margin-left: 500px ;
+}
+
+.extra-part button{
+    margin-left: 550px;
+    padding: 10px;
+    width: 150px;
+}
+
+.extra-part h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    padding-bottom: 0%;
+}
